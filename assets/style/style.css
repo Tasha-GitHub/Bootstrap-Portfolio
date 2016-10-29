@@ -19,12 +19,39 @@ body {
 	background-image: url("../images/cork-wallet.png")
 }
 
-h1 {
+header {
+	background-color: #ffffff;
+	border-style: none none solid none;
+	border-width: 2px;
+	border-color: #cccccc;
+	margin-bottom: 30px;
+}
 
-	background-color: #4aaaa5;
+h1 {
 	color:#ffffff;
 	font-size: 40px;
 	font-family: 'Georgia', Times, "Times New Roman", serif;
+
+}
+
+.nameBlock{
+	background-color: #4aaaa5;	
+}
+
+nav{
+	margin-top: 30px;
+}
+
+.leftHref{
+	border-style: none;
+
+}
+
+nav a {
+	border-style: none solid none none;
+	border-width: 1px;
+	border-color: #777777;
+	padding: 0px 10px 0px 10px;
 
 }
 
@@ -126,6 +153,7 @@ textarea {
 	border-style: hidden;
 	color: #ffffff;
 	margin-bottom: 30px;
+	width: 100px;
 }
 
 /*formatting that affects multiple pages
