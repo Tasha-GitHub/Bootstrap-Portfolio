@@ -1,5 +1,5 @@
 # Project Outline:
-Develope a porfolio that utilizes bootstrap templates for idea coloring themes.
+Develope a porfolio that uses bootstrap and bootstrap templates
 # Additional concepts: 
 Added in CSS animations as well
 # Technologies used:
