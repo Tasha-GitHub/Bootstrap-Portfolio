@@ -1,6 +1,8 @@
-1. Create a Github Repo
-2. create corresponding html files
-3. generate and fill asset file
-    images 
-    css
-4. download placeholders - see UT git hub repo
+# Project Outline:
+Develope a porfolio that uses bootstrap and bootstrap templates
+# Additional concepts: 
+Added in CSS animations as well
+# Technologies used:
+Boostrap
+CSS
+HTML
