@@ -7,6 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="assets/style/reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/darkly/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="assets/style/style.css">
 </head>
 <body>
@@ -36,59 +38,252 @@
 						<h2> Portfolio </h2>
 					</div>
 					<div class="row">
-						<div class=" col-md-6 showcase col-sm-12 col-xs-12">
-							<img src="assets/images/hang-man.jpg" alt="Hangman Image">
-							<!---<div class="project-header">
-								<p> Rock Paper Scissors </p>
-							</div>-->
+						<div class=" col-md-6 showcase col-sm-12 col-xs-12" data-toggle="modal" data-target="#HangmanModel" data-backdrop="static">
+							<img src="assets/images/hang-man.jpg" alt="Hangman Image" >
+							<div class="modal fade" id="HangmanModel" tabindex="-1" role="dialog" aria-labelledby="HangmanModel">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" aria-label="Close">
+							        <span aria-hidden="true">&times;</span>
+							        </button>
+							        <h4 class="modal-title" id="myModalLabel">Game of Thrones Inspired Hangman</h4>
+							      </div>
+							      <div class="modal-body">
+							        <p>technologies used</p>
+							        <p>
+								        <ul>
+								        	<li>HTML</li>
+								        	<li>CSS</li>
+								        	<li>Javascript</li>
+								        </ul>
+							        </p>
+							        <p>Website Link: </p>
+							        <p>Github Link: </p>
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-primary">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
 						</div>
-						<div class="col-md-6 showcase col-sm-12 col-xs-12">
+						<div class="col-md-6 showcase col-sm-12 col-xs-12" data-toggle="modal" data-target="#PokemonModel" data-backdrop="static">
 							<img src="assets/images/role-player.jpg" alt="RPG Image">
-							<!---<div class="project-header">
-								<p> RPG Game </p>
-							</div>-->
+							<div class="modal fade" id="PokemonModel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" aria-label="Close">
+							        <span aria-hidden="true">&times;</span>
+							        </button>
+							        <h4 class="modal-title" id="myModalLabel">Pokemon Role Player Game</h4>
+							      </div>
+							      <div class="modal-body">
+							        <p>technologies used</p>
+							        <p>
+								        <ul>
+								        	<li>HTML</li>
+								        	<li>CSS</li>
+								        	<li>Javascript</li>
+								        </ul>
+							        </p>
+							        <p>Website Link: </p>
+							        <p>Github Link: </p>
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-primary">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+
 						</div> 
 					</div>
 					<div class="row">
-						<div class="col-md-6 showcase col-sm-12 col-xs-12">
+						<div class="col-md-6 showcase col-sm-12 col-xs-12" data-toggle="modal" data-target="#TriviaModel" data-backdrop="static">
 							<img src="assets/images/trivia.jpg" alt="Trivia Image">
-							<!---<div class="project-header">
-								 <p> Trivia Game </p>
-							</div>-->
+							<div class="modal fade" id="TriviaModel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" aria-label="Close">
+							        <span aria-hidden="true">&times;</span>
+							        </button>
+							        <h4 class="modal-title" id="myModalLabel">State Capital Trivia</h4>
+							      </div>
+							      <div class="modal-body">
+							        <p>technologies used</p>
+							        <p>
+								        <ul>
+								        	<li>HTML</li>
+								        	<li>CSS</li>
+								        	<li>Javascript</li>
+								        </ul>
+							        </p>
+							        <p>Website Link: </p>
+							        <p>Github Link: </p>
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-primary">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
 						</div> 
-						<div class="col-md-6 showcase col-sm-12 col-xs-12">
+						<div class="col-md-6 showcase col-sm-12 col-xs-12" data-toggle="modal" data-target="#giphyModel" data-backdrop="static">
 							<img src="assets/images/widget-info.jpg" alt="Widget Image">
-							<!---<div class="project-header">
-								<p> Rutgers Trivia Game </p>
-							</div>-->
+							<div class="modal fade" id="giphyModel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" aria-label="Close">
+							        <span aria-hidden="true">&times;</span>
+							        </button>
+							        <h4 class="modal-title" id="myModalLabel">Giphy Emotion Generator</h4>
+							      </div>
+							      <div class="modal-body">
+							        <p>technologies used</p>
+							        <p>
+								        <ul>
+								        	<li>HTML</li>
+								        	<li>CSS</li>
+								        	<li>Javascript</li>
+								        </ul>
+							        </p>
+							        <p>Website Link: </p>
+							        <p>Github Link: </p>
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-primary">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
 						</div> 
 					</div>	
 					<div class="row">
-						<div class="col-md-6 showcase col-sm-12 col-xs-12">
+						<div class="col-md-6 showcase col-sm-12 col-xs-12" data-toggle="modal" data-target="#rpsModel" data-backdrop="static">
 							<img src="assets/images/rock-paper.jpg" alt="Rock-paper-scissors Image">
-							<!---<div class="project-header">
-								<p>Rock Paper Scissors </p>
-							</div>-->
+							<div class="modal fade" id="rpsModel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" aria-label="Close">
+							        <span aria-hidden="true">&times;</span>
+							        </button>
+							        <h4 class="modal-title" id="myModalLabel">Rock Paper Scissors</h4>
+							      </div>
+							      <div class="modal-body">
+							        <p>technologies used</p>
+							        <p>
+								        <ul>
+								        	<li>HTML</li>
+								        	<li>CSS</li>
+								        	<li>Javascript</li>
+								        </ul>
+							        </p>
+							        <p>Website Link: </p>
+							        <p>Github Link: </p>
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-primary">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
 						</div>
-						<div class="col-md-6 showcase col-sm-12 col-xs-12">
+						<div class="col-md-6 showcase col-sm-12 col-xs-12" data-toggle="modal" data-target="#hikeModel" data-backdrop="static">
 							<img src="assets/images/rock-paper.jpg" alt="Widget Image">
-							<!---<div class="project-header">
-								<p> Rutgers Trivia Game </p>
-							</div>-->
+							<div class="modal fade" id="hikeModel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" aria-label="Close">
+							        <span aria-hidden="true">&times;</span>
+							        </button>
+							        <h4 class="modal-title" id="myModalLabel">Hike Finder</h4>
+							      </div>
+							      <div class="modal-body">
+							        <p>technologies used</p>
+							        <p>
+								        <ul>
+								        	<li>HTML</li>
+								        	<li>CSS</li>
+								        	<li>Javascript</li>
+								        </ul>
+							        </p>
+							        <p>Website Link: </p>
+							        <p>Github Link: </p>
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-primary">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
 						</div> 
 					</div> 
 					<div class="row">
-						<div class="col-md-6 showcase col-sm-12 col-xs-12">
+						<div class="col-md-6 showcase col-sm-12 col-xs-12" data-toggle="modal" data-target="#animalModel" data-backdrop="static">
 							<img src="assets/images/rock-paper.jpg" alt="Rock-paper-scissors Image">
-							<!---<div class="project-header">
-								<p>Rock Paper Scissors </p>
-							</div>-->
+							<div class="modal fade" id="animalModel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" aria-label="Close">
+							        <span aria-hidden="true">&times;</span>
+							        </button>
+							        <h4 class="modal-title" id="myModalLabel">Animal Model</h4>
+							      </div>
+							      <div class="modal-body">
+							        <p>technologies used</p>
+							        <p>
+								        <ul>
+								        	<li>HTML</li>
+								        	<li>CSS</li>
+								        	<li>Javascript</li>
+								        </ul>
+							        </p>
+							        <p>Website Link: </p>
+							        <p>Github Link: </p>
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-primary">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
 						</div>
-						<div class="col-md-6 showcase col-sm-12 col-xs-12">
+						<div class="col-md-6 showcase col-sm-12 col-xs-12" data-toggle="modal" data-target="#blankModel" data-backdrop="static">
 							<img src="assets/images/rock-paper.jpg" alt="Widget Image">
-							<!---<div class="project-header">
-								<p> Rutgers Trivia Game </p>
-							</div>-->
+							<div class="modal fade" id="blankModel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" aria-label="Close">
+							        <span aria-hidden="true">&times;</span>
+							        </button>
+							        <h4 class="modal-title" id="myModalLabel"> blank</h4>
+							      </div>
+							      <div class="modal-body">
+							        <p>technologies used</p>
+							        <p>
+								        <ul>
+								        	<li>HTML</li>
+								        	<li>CSS</li>
+								        	<li>Javascript</li>
+								        </ul>
+							        </p>
+							        <p>Website Link: </p>
+							        <p>Github Link: </p>
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-primary">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
 						</div> 
 					</div> 
 				</div>
