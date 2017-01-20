@@ -1,11 +1,15 @@
 var nodemailer = require('nodemailer');
 var express = require('express');
-var keys = require('../keys.js');
+
 //console.log(keys.emailKeys.email);
 
 module.exports = function (app) {
 	
 	app.post('/email', function(req, res) {
+		if(app.settings.env === "development"){
+			var keys = require('../keys.js');
+		}
+
 	    var transporter = nodemailer.createTransport({
 	        service: 'Gmail',
 	        auth: {
