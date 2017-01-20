@@ -6,12 +6,14 @@ var express = require('express');
 module.exports = function (app) {
 	
 	app.post('/email', function(req, res) {
-		var keys = app.settings.env === "development" ? require('../keys.js') : {};
+		let user, pass;
+
+		var emailKeys = app.settings.env === "development" ? require('../keys.js') : {};
 	    var transporter = nodemailer.createTransport({
 	        service: 'Gmail',
 	        auth: {
-	            user: keys.emailKeys.email || process.env.EMAIL, // Your email id
-	            pass: keys.emailKeys.password || process.env.PASSWORD // Your password
+	            user:  emailKeys.email || process.env.EMAIL,
+	            pass: emailKeys.password || process.env.PASSWORD
 	        }
 	    });
 
