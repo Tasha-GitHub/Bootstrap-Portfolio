@@ -22,8 +22,7 @@ app.use(express.static("./public"));
 
 require("./routing/api-routes.js")(app);
 require("./routing/html-routes.js")(app); 
-console.log(process.env.PORT);
-console.log(app.settings.env);
+
 // -------------------------------------------------
 
 

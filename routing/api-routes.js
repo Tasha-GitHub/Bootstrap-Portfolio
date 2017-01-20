@@ -6,10 +6,7 @@ var express = require('express');
 module.exports = function (app) {
 	
 	app.post('/email', function(req, res) {
-		if(app.settings.env === "development"){
-			var keys = require('../keys.js');
-		}
-
+		var keys = app.settings.env === "development" ? require('../keys.js') : {};
 	    var transporter = nodemailer.createTransport({
 	        service: 'Gmail',
 	        auth: {
